@@ -1,0 +1,35 @@
+query GetPosts {
+  posts {
+    id
+    title
+    publishedAt
+    author {
+      id
+      name
+      avatarUrl
+    }
+  }
+}
+
+query GetPost($id: String!) {
+  post(id: $id) {
+    id
+    title
+    body
+    tags
+    publishedAt
+    author {
+      id
+      name
+      avatarUrl
+    }
+  }
+}
+
+query GetUser($id: String!) {
+  user(id: $id) {
+    id
+    name
+    avatarUrl
+  }
+}
