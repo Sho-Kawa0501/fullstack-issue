@@ -99,24 +99,24 @@ cargo run
 - graphql-codegen による型生成  
 
 
-## バックエンド
+### バックエンド
 
-### GraphQL スキーマ実装（Query）
+#### GraphQL スキーマ実装（Query）
 
 - `posts`：記事一覧取得  
 - `post(id)`：記事詳細取得  
 - `user(id)`：ユーザー情報取得  
 
-### GraphQL スキーマ実装（Mutation）
+#### GraphQL スキーマ実装（Mutation）
 
 - `createPost(input)`：新規記事作成  
 
-### データストア
+#### データストア
 
 - メモリ内データストアで管理  
 - アプリ起動時に初期データ生成  
 
-### リゾルバ
+#### リゾルバ
 
 - `get_all_posts`：記事一覧取得  
 - `get_post`：記事詳細取得  
