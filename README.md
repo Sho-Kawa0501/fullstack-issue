@@ -119,6 +119,7 @@ cargo run
 #### リゾルバ
 
 - `get_all_posts`：記事一覧取得  
-- `get_post`：記事詳細取得  
+- `get_post`：記事詳細取得
+- `get_user`：ユーザー情報取得
 - `create_post`：記事作成  
 - `Post.author`：サブリゾルバ 
